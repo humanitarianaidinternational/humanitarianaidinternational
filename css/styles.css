@@ -1580,6 +1580,14 @@ form .form-group i .form-control {
 .prev-next .prev {
   float: left;
 }
+/*.bank-tile{
+	margin: 0 auto;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:15px;
+	padding-left:15px;
+	background-color: white;
+}*/
 /**
  *
  *
@@ -2334,3 +2342,8 @@ form .form-group i .form-control {
   height: 100%;
   width: 100%;
 }
+
+
+	.team .team-item h5:after, .team .team-item h5:before{
+		content:'';
+	}
