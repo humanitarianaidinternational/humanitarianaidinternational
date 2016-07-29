@@ -2348,3 +2348,6 @@ form .form-group i .form-control {
 	.team .team-item h5:after, .team .team-item h5:before{
 		content:'';
 	}
+	.modal-dialog{
+margin-top:110px !important;
+}
