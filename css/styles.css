@@ -1318,10 +1318,11 @@ form .form-group i .form-control {
   top: 0;
 }
 .navbar.navbar-fixed-top {
-  background-color: rgba(0,0,0,0.7);
+  /*background-color: rgba(0,0,0,0.7);*/
+ background-color:white;
   position: fixed;
   height: 95px;
-  border-bottom: 1px solid #333;
+  /*border-bottom: 1px solid #333;*/
 }
 .navbar.navbar-fixed-top .navbar-brand {
   margin: 10px 0 !important;
@@ -1347,7 +1348,7 @@ form .form-group i .form-control {
   float: right;
 }
 .navbar-nav>li>a {
-  color: #fff;
+  color: #292828;
   display: inline-block;
   font-size: 1em;
   font-weight: 700;
@@ -1361,10 +1362,10 @@ form .form-group i .form-control {
 .navbar-nav>li>a:focus,
 .navbar-nav>li>a:hover {
   background-color: transparent;
-  color: #fff;
+  color: #ea4b4f;
 }
 .navbar-nav>li.active>a {
-  color: #fff;
+  color: #ea4b4f;
 }
 .navbar-nav>li.open>a,
 .navbar-nav>li.open>a:focus,
