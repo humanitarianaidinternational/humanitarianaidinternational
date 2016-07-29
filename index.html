@@ -164,11 +164,13 @@
 			<div class="tab-content">
 				<div class="tab-pane" id="volunteering">
 					<div class="row">
-						<div class="col-md-3 col-sm-6 about-icon plane">
+						<a data-toggle="modal" data-target="#hResponsel" class="col-md-3 col-sm-6 about-icon plane">
 							<i class="fa fa-ambulance"></i>
 							<h4>Humanitarian Response</h4>
-							<!-- <p>What matters isn’t words, but actions: The environment has to benefit.</p> -->
-						</div>
+							<!-- <p>What matters isn’t words, but actions: The environment has to benefit.</p>
+	 -->					
+	 </a>
+	 
 
 						<div class="col-md-3 col-sm-6 about-icon heart">
 							<i class="fa fa-life-ring"></i>
@@ -901,7 +903,23 @@
 	</div>
 </footer>
 <!-- end Footer -->
-
+<div class="modal fade" id="hResponse" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="hResponseLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <!-- ******************************************************************** -->
@@ -949,6 +967,7 @@
 
   ga('create', 'UA-77783874-1', 'auto');
   ga('send', 'pageview');
+
 
 </script>
 
